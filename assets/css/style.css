@@ -1,0 +1,55 @@
+body{
+    background-image: url(../images/congruent_pentagon.png);
+}
+
+header{
+    background-color: orange;
+    color: white;
+    margin: 1%;
+
+}
+h1{
+    padding:1%;
+}
+
+#clearfix{
+    clear:both;
+}
+
+#instructions{
+    background-color: tan;
+    color: green;
+    margin: 1.3%;
+    font-weight: bolder;
+    padding: .5%;
+}
+
+.random{
+    background-color:turquoise;
+    color: purple;
+    border: solid;
+    margin: 1.3%;
+    clear:right;
+    margin-left:2%;
+}
+
+.counter{
+    background-color: aqua;
+    color:green;
+    border: solid;
+    margin: 1.3%;
+}
+
+.scoreText{
+    background-color: turquoise;
+    color:white;
+    border: solid;
+    margin: .8%;
+}
+
+.total{
+    background-color: turquoise;
+    color:white;
+    border: solid;
+    margin: .8%;
+}
