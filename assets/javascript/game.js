@@ -1,8 +1,8 @@
 $(document).ready(function () {
     $("#wins").text("Wins: ");
     $("#losses").text("Losses: ");
-     var wins = "Wins: " + wins;
-     var losses = "losses: " + losses;
+     var wins = 0;
+     var losses = 0;
     var randomNum = "";
     var total = 0;
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
             if (total > randomNum) {
                 alert("You have lost. Try again!")
-                losses + 1;
+                losses ++;
                 $("#losses").html("losses: " + losses);
                total=0; 
                 
@@ -51,8 +51,8 @@ $(document).ready(function () {
             }
             else if (total === randomNum) {
                 alert("You have won!");
-                wins + 1;
-                $("#win").html("Wins: " + wins);
+                wins ++;
+                $("#wins").html("Wins: " + wins);
                  total=0;  
                  startReset();
             };
