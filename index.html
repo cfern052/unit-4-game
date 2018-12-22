@@ -3,9 +3,9 @@
 
 <head>
     <title>Crystal Collector!</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript"></script>
 </head>
@@ -26,20 +26,20 @@
             <p>You win the game by matching your total score to random numver, you lose the game if your total score goes above the random number</p>
             <p>The Value of each crystal is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+            <!-- <button type="button" class="btn btn-dark start">Start</button> -->
+
         </div>
     </div>
     <div id=clearfix></div>
     <div class=row>
         <div class="col-3 random"><p id=randomNumber></p></div>
-        <div class="col-1 counter"><p id=winLoss></p></div>
+        <div class="col-1 counter"><p id=wins></p><br><p id=losses></p></div>
     </div>
     <div id=clearfix></div>
-    <div class=row>
-        <div class="col-1 j1"><p id=j1></p></div>
-        <div class="col-1 j2"><p id=j2></p></div>
-        <div class="col-1 j3"><p id=j3></p></div>
-        <div class="col-1 j4"><p id=j4></p></div>
-    </div>
+    
+        <div class=crystals></div>
+    
     <div id=clearfix></div>
     <div class=rowspan>
         <div class="col-4 scoreText"><h3>Your total score is:</h3></div>
@@ -50,7 +50,7 @@
     </div>
 
 
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 

@@ -53,3 +53,16 @@ h1{
     border: solid;
     margin: .8%;
 }
+
+.crystals{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+}
+
+.crystal{
+border:1px solid black;
+height: 200px;
+width: 200px;
+}
